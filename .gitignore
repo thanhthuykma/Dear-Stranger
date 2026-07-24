@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Kotlin
+.kotlin/
+
+# Local config
+local.properties
+
+# Firebase secret — NEVER commit
+  google-services.json
+  app/google-services.json
+
+# Signing keys — NEVER commit
+*.jks
+*.keystore
+keystore.properties
+
+# Logs / OS junk
+*.log
+.DS_Store
+captures/
